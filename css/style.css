@@ -17,17 +17,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Canaro';
-    src: url('fonts/Canaro-ExtraBold.eot') format('truetype');
-    src: url('fonts/Canaro-Bold.ttf') format('truetype');
-    src: url('fonts/Canaro-SemiBold.ttf') format('truetype');
-    src: url('fonts/Canaro-Medium.ttf') format('truetype');
-    src: url('fonts/Canaro-Book.ttf') format('truetype');
-    src: url('fonts/Canaro-Light.ttf') format('truetype');
-    font-weight: 800,700,600,400,500,300,200;
-    font-style: normal;
-}
 /* Navegador */
 
 .nav-link {

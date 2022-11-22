@@ -80,12 +80,12 @@
 /* Navegador */
 
 .nav-link {
-    font-family: 'Canaro', 'sanserif';
+    font-family: 'Canaro', sanserif;
     font-weight: 400;
 }
 
 h1 {
-    font-family: 'Canaro','sanserif';
+    font-family: 'Canaro',sanserif;
     font-weight: 500;
 }
 
@@ -131,7 +131,7 @@ h1 {
     border: 1px white solid;
     background: none;
     border-radius: 0;
-    font-family: 'Canaro', 'sanserif';
+    font-family: 'Canaro', sanserif;
     color: white;
 }
 
@@ -155,7 +155,7 @@ h1 {
     border-radius: none;
     background: none;
     border: 1px solid white;
-    font-family: 'Canaro', 'sanserif';
+    font-family: 'Canaro', sanserif;
     padding: 0 0 0 10px;
     color: white;
 }
@@ -164,7 +164,7 @@ h1 {
     border-radius: 0;
     background-color: crimson;
     border: none;
-    font-family: 'Canaro', 'sanserif';
+    font-family: 'Canaro', sanserif;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -187,7 +187,7 @@ footer {
 .logoFooter{
     margin-bottom: 40px;
     margin-top: 40px;
-    font-family: 'Canaro', 'sanserif';
+    font-family: 'Canaro', sanserif;
 }
 
 footer a {
@@ -195,7 +195,7 @@ footer a {
     color: white;
     font-weight: 600;
     font-size: small;
-    font-family: 'Canaro', 'sanserif';
+    font-family: 'Canaro', sanserif;
 }
 
 a:hover {

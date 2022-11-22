@@ -30,7 +30,7 @@ h1 {
 
 /* Familia */
 
-#familia {
+.sec-familia {
     background-color: #f2f2f2;
 }
 
@@ -45,7 +45,7 @@ h1 {
 }
 
 /* Amigos */
-#amigos {
+.sec-amigos {
     background-color: #1a1a1a;
 }
 

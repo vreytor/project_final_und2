@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Canaro';
+    src: url('fonts/Canaro-ExtraBold.ttf') format('truetype');
+    src: url('fonts/Canaro-Bold.ttf') format('truetype');
+    src: url('fonts/Canaro-SemiBold.ttf') format('truetype');
+    src: url('fonts/Canaro-Book.ttf') format('truetype');
+    src: url('fonts/Canaro-Light.ttf') format('truetype');
+    font-weight: 800,700,600,400,500,300,200;
+    font-style: normal;
+}
+
+/* Navegador */
+
+.nav-link {
+    font-family: 'Canaro';
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Canaro';
+    font-weight: 500;
+}
+
+/* Formulario */
+
+.formulario {
+    background-color: #1a1a1a;
+    color: white;
+    padding-top: 30px;
+}
+
+.form-control {
+    border: 1px white solid;
+    background: none;
+    border-radius: 0;
+    font-family: 'Canaro';
+    color: white;
+}
+
+.form-control:focus {
+    outline: 1px solid white;
+    border: none;
+    background: none;
+    color: white;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #999999;
+}
+
+::placeholder {
+    color: #999999;
+}
+
+.mensaje {
+    border-radius: none;
+    background: none;
+    border: 1px solid white;
+    font-family: 'Canaro';
+    padding: 0 0 0 10px;
+    color: white;
+}
+
+.btn {
+    border-radius: 0;
+    background-color: crimson;
+    border: none;
+    font-family: 'Canaro';
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.btn:hover {
+    background: none;
+    border: solid 1px crimson;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #1a1a1a;
+    border-top: solid 1px #4d4d4d;
+}
+
+.logoFooter{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: 'Canaro';
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: small;
+    font-family: 'Canaro';
+}
+
+a:hover {
+    color: crimson;
+}
+
+.copy {
+    font-size: smaller;
+    font-weight: 200;
+    margin-top: 25px;
+}

@@ -37,7 +37,8 @@
    
     <main class="vh-100">
 
-        <article class="row bg-primary h-25" id="yo"> SECCION YO
+        <article class="row bg-primary h-25" id="yo"> 
+          <h1>sección yo</h1>
 
         </article>
        
@@ -92,28 +93,39 @@
 
         </article>
 
-        <article id="contacto" >
-            <form>
-                <section class="mb-3">
-                    <label for="txtEmail" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" id="txtEmail">
-                    <p id="emailVal" class="text-danger"></p>
+        <article class="formulario row d-flex justify-content-center text-center" id="contacto" >
+            <h1 class="mb-4">Contáctame</h1>      
+            <form class="row w-75 ">
+                <section class="mb-3">          
+                  <input type="text" class="form-control" id="txtpwd" placeholder="Nombre">
                 </section>
-                <section class="mb-3">
-                    <label for="txtpwd" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="txtpwd">
+                <section class="mb-3">  
+                    <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+                    <!-- <p id="emailVal" class="text-danger"></p> -->
                 </section>
-                <section class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="chkAceptar">
-                    <label class="form-check-label" for="exampleCheck1">Aceptar reglas del contrato</label>
+                <section class="mb-3">          
+                    <input type="text" class="form-control" id="txtpwd" placeholder="Asunto">
+                </section>      
+                <section class="mb-3 w-100">          
+                  <textarea class="mensaje w-100" name="" id="" cols="30" rows="4" placeholder="Mensaje"></textarea>
                 </section>
-                <input type="button" class="btn btn-primary" value="Enviar" id="btnEnviar"></input>
+                <section class="mb-3 w-100">
+                  <input type="button" class="btn btn-primary w-100" value="Enviar" id="btnEnviar"></input>
+                </section>                
             </form>
         </section>
-    </main>
-    <footer class="bg-black h-25">
+
         
-    </footer>
+        
+        <footer class="text-center">
+          <h2 class="logoFooter">reytor</h2>
+          <a href="https://www.facebook.com/VictorReytor" target="_blank"><p class="btnSocial">FACEBOOK</p></a>  
+          <a href="https://www.instagram.com/victor_reytor/" target="_blank"><p class="btnSocial">INSTRAGRAM</p></a>
+          <a href="https://www.linkedin.com/in/victor-reyes-torres-91161b122/" target="_blank"><p class="btnSocial">LINKEDIN</p></a>
+          <a href="https://www.behance.net/victor_reytor" target="_blank"><p class="btnSocial">BEHANCE</p></a>
+          <p class="copy">Copyright © 2022 All rights reserved | Designed by Victor Reytor</p>
+        </footer> 
+    </main>     
 </body>
 </html>
 <script src="./js/main.js"></script>

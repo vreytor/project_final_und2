@@ -28,6 +28,36 @@ h1 {
     font-weight: 500;
 }
 
+/* Familia */
+
+#familia {
+    background-color: #f2f2f2;
+}
+
+.titleFamilia {
+    color: #1a1a1a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
+/* Amigos */
+#amigos {
+    background-color: #1a1a1a;
+}
+
+.jhon {
+    margin-bottom: 40px;
+}
+
+.titleAmigos {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 /* Formulario */
 
 .formulario {

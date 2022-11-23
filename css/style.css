@@ -89,6 +89,12 @@ h1 {
     font-weight: 500;
 }
 
+/* Yo */
+
+.sec-yo {
+    background-color: #c2ccfb;
+}
+
 /* Familia */
 
 .sec-familia {
@@ -99,6 +105,7 @@ h1 {
     color: #1a1a1a;
     margin-top: 30px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .carousel {
@@ -118,6 +125,25 @@ h1 {
     color: white;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.friends {
+    color: #999999;
+    font-family: 'Canaro';
+    font-weight: 200;
+    margin-top: 25px;
+}
+
+/* Estudios */
+
+.sec-estudios {
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+
+.titleEstudios {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 /* Formulario */
 
@@ -142,6 +168,12 @@ h1 {
     color: white;
     box-shadow: none;
 }
+
+.idat, .upn {
+    font-family: 'Canaro';
+    font-weight: 200;
+}
+
 
 .form-control::placeholder {
     color: #999999;

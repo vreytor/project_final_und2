@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.png">
     
 </head>
-<body class="container-xxl">
+<body class="container-fluid">
     <header class="row">
-        <nav class="navbar navbar-expand-lg bg-none navbar-nav-scroll">
+        <nav class="navbar navbar-expand-lg bg-none">
             <section class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="./img/logo.png" alt="logo" height="25px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,15 +40,23 @@
    
     <main class="vh-100">
 
-        <article class="row bg-primary h-25" id="yo"> 
-          <h1>sección yo</h1>
+      <div class="sec-yo row">
+        <div class="row vh-100" style="display: flex; justify-content: center; align-items: center;">
+          <div class="col-md-6">
+            <h1>Victor Reyes</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa et reprehenderit amet ratione commodi officiis delectus. Asperiores praesentium ipsa unde possimus odit repellendus, laborum, dignissimos similique iste eveniet provident enim!
+            </p>
+          </div>
+          <div class="col-md-6" style="min-height: 50vh; display: flex; justify-content: center; align-items: center;">
+            <img src="img/perfil.png" class="img-fluid" style="object-fit: cover;" alt="Foto personal">
+          </div>
+        </div>
+      </div>
 
-        </article>
-       
         <article class="sec-familia row h-auto justify-content-center text-center" id="familia">
           <h1 class="titleFamilia">Familia</h1>
         
-            <section id="carouselExampleCaptions" class="carousel slide w-75" data-bs-ride="false">
+            <section id="carouselExampleCaptions" class="carousel slide col-md-8 col-sm-12" data-bs-ride="false">
                 <section class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -91,35 +99,64 @@
        
         <article class="sec-amigos row h-auto d-flex justify-content-center text-center" id="amigos">
           <h1 class="titleAmigos">Amigos</h1>
-          <picture class="jhon row w-50">
-          <img src="./img/jhon.gif" width="50%px" height="auto" frameBorder="0"></img>
+          <section class="jhon col-md-8 col-sm-12">
+          <img src="./img/jhon.gif" width="100%px" height="auto" frameBorder="0"></img>
           </picture>
-
+          <small class="friends">Mención especial a: Topper, Juanxu, Raccon, Jumper, Jairo, Gianfranco, Leonardo </small>
         </article>
        
-        <article class="row bg-warning h-25" id="estudios"> SECCION ESTUDIOS
+        <article class="sec-estudios row h-auto" id="estudios">
+          <h1 class="titleEstudios text-center">Estudios</h1>
+          <section class="row d-flex flex-wrap mb-4" style="display: flex; justify-content: center; align-items: center;">
+            <section class="idat col col-lg-6 col-sm-12 align-items-center p-md-5 p-sm-0">
+              <h3>IDAT</h3>
+              <p>Diseño Gráfico 2014-2016</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem a libero illum minima maxime labore. Alias perspiciatis quidem labore et.</p>
+            </section>
+                      
+            <picture class="row col-lg-6 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid" style="object-fit: cover;" src="./img/estudios/fachada-chiclayo.jpg" alt="Fachada IDAT Chiclayo">
+            </picture>
+          </section>
+          
+          <section class="row d-flex flex-wrap-reverse mt-4" style="display: flex; justify-content: center; align-items: center;">
+            <picture class="row col-lg-6 col-sm-12 d-flex justify-content-center">
+              <img  class="img-fluid" style="object-fit: cover;"  src="./img/estudios/campus-cajamarca_0.jpg" alt="Fachada UPN Cajamarca">
+            </picture>
+  
+            <section class="upn col col-lg-6 col-sm-12">
+              <h3>UPN</h3>
+              <p>Ingeniería Industrial 2020-2021</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem a libero illum minima maxime labore. Alias perspiciatis quidem labore et.</p>
+            </section>
+          </section>
+          
 
         </article>
-
-        <article class="formulario row d-flex justify-content-center text-center" id="contacto" >
-            <h1 class="mb-4">Contáctame</h1>      
-            <form class="row w-75 ">
-                <section class="mb-3">          
-                  <input type="text" class="form-control" id="txtpwd" placeholder="Nombre" required>
+        
+        
+          <article class="formulario row d-flex justify-content-center text-center" id="contacto" >
+            <h1 class="mb-4">Contáctame</h1>
+            <form class="col-lg-6 col-md-8 col-sm-12 ">
+                <section class="mb-3">
+                  <input type="text" class="form-control" id="txtNombre" placeholder="Nombre" required>
+                  <small id="nombreVal" class="text-danger formularioSpan"></small>
                 </section>
-                <section class="mb-3">  
-                    <input type="email" class="form-control" id="txtEmail" placeholder="Email" required>
-                    <p id="emailVal" class="text-danger"></p>
+                <section class="mb-3">
+                  <input type="email" class="form-control" id="txtEmail" placeholder="Email" required>
+                  <small id="emailVal" class="text-danger formularioSpan"></small>
                 </section>
-                <section class="mb-3">          
-                    <input type="text" class="form-control" id="txtpwd" placeholder="Asunto" required>
-                </section>      
-                <section class="mb-3 w-100">          
-                  <textarea class="mensaje w-100" name="" id="" cols="30" rows="4" placeholder="Mensaje" required></textarea>
+                <section class="mb-3">
+                  <input type="text" class="form-control" id="txtAsunto" placeholder="Asunto" required>
+                  <small id="asuntoVal" class="text-danger formularioSpan"></small>
+                </section>
+                <section class="mb-3 w-100">
+                  <textarea class="mensaje w-100" name="" id="txtMsj" cols="30" rows="4" placeholder="Mensaje" required></textarea>
+                  <small id="msjVal" class="text-danger formularioSpan"></small>
                 </section>
                 <section class="mb-3 w-100">
                   <input type="button" class="btn btn-primary w-100" value="Enviar" id="btnEnviar"></input>
-                </section>                
+                </section>
             </form>
         </section>
 

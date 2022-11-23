@@ -84,6 +84,10 @@
     font-weight: 400;
 }
 
+.nav-link:hover {
+    color: crimson;
+}
+
 h1 {
     font-family: 'Canaro',sanserif;
     font-weight: 500;
@@ -94,6 +98,38 @@ h1 {
 .sec-yo {
     background-color: #c2ccfb;
 }
+
+.title-yo {
+    color: white;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 6rem; 
+}
+
+.textos {
+    line-height: 1rem;
+}
+
+.text-intro {
+    color: white;
+    font-family: 'Canaro';
+    font-weight: 100;
+    line-height: 1.2rem;
+
+}
+
+@media only screen and (max-width: 776px) and (min-width: 576px) {  
+  .textos {
+    position:absolute;
+    align-self: end;
+  }
+
+  .title-yo {
+    font-size: 5rem;
+  }
+
+}  
+    
 
 /* Familia */
 

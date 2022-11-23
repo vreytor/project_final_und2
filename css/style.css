@@ -137,9 +137,13 @@ h1 {
   }
 
   .title-yo {
-    font-size: 4rem;
+    font-size: 2rem;
   }
-
+  
+  .text-intro {
+    font-size: .8rem;
+    line-height: .8rem;
+  }
 }  
     
 

@@ -2,78 +2,77 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Canaro';
 
 }
 
 @font-face {
     font-family: 'Canaro';
-    src: url('fonts/Canaro-ExtraBold.eot');
+    src: url('../fonts/Canaro-ExtraBold.eot');
     src: local('Canaro ExtraBold'), local('Canaro-ExtraBold'),
-        url('fonts/Canaro-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Canaro-ExtraBold.woff2') format('woff2'),
-        url('fonts/Canaro-ExtraBold.woff') format('woff'),
-        url('fonts/Canaro-ExtraBold.ttf') format('truetype');
+        url('../fonts/Canaro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Canaro-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Canaro-ExtraBold.woff') format('woff'),
+        url('../fonts/Canaro-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Canaro Book';
-    src: url('fonts/Canaro-Book.eot');
+    src: url('../fonts/Canaro-Book.eot');
     src: local('Canaro Book'), local('Canaro-Book'),
-        url('fonts/Canaro-Book.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Canaro-Book.woff2') format('woff2'),
-        url('fonts/Canaro-Book.woff') format('woff'),
-        url('fonts/Canaro-Book.ttf') format('truetype');
+        url('../fonts/Canaro-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Canaro-Book.woff2') format('woff2'),
+        url('../fonts/Canaro-Book.woff') format('woff'),
+        url('../fonts/Canaro-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Canaro';
-    src: url('fonts/Canaro-SemiBold.eot');
+    src: url('../fonts/Canaro-SemiBold.eot');
     src: local('Canaro SemiBold'), local('Canaro-SemiBold'),
-        url('fonts/Canaro-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Canaro-SemiBold.woff2') format('woff2'),
-        url('fonts/Canaro-SemiBold.woff') format('woff'),
-        url('fonts/Canaro-SemiBold.ttf') format('truetype');
+        url('../fonts/Canaro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Canaro-SemiBold.woff2') format('woff2'),
+        url('../fonts/Canaro-SemiBold.woff') format('woff'),
+        url('../fonts/Canaro-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Canaro Book';
-    src: url('fonts/Canaro-Bold.eot');
+    src: url('../fonts/Canaro-Bold.eot');
     src: local('Canaro Bold'), local('Canaro-Bold'),
-        url('fonts/Canaro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Canaro-Bold.woff2') format('woff2'),
-        url('fonts/Canaro-Bold.woff') format('woff'),
-        url('fonts/Canaro-Bold.ttf') format('truetype');
+        url('../fonts/Canaro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Canaro-Bold.woff2') format('woff2'),
+        url('../fonts/Canaro-Bold.woff') format('woff'),
+        url('../fonts/Canaro-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Canaro';
-    src: url('fonts/Canaro-Medium.eot');
+    src: url('../fonts/Canaro-Medium.eot');
     src: local('Canaro Medium'), local('Canaro-Medium'),
-        url('fonts/Canaro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Canaro-Medium.woff2') format('woff2'),
-        url('fonts/Canaro-Medium.woff') format('woff'),
-        url('fonts/Canaro-Medium.ttf') format('truetype');
+        url('../fonts/Canaro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Canaro-Medium.woff2') format('woff2'),
+        url('../onts/Canaro-Medium.woff') format('woff'),
+        url('../fonts/Canaro-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Canaro';
-    src: url('fonts/Canaro-Light.eot');
+    src: url('../fonts/Canaro-Light.eot');
     src: local('Canaro Light'), local('Canaro-Light'),
-        url('fonts/Canaro-Light.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Canaro-Light.woff2') format('woff2'),
-        url('fonts/Canaro-Light.woff') format('woff'),
-        url('fonts/Canaro-Light.ttf') format('truetype');
+        url('../fonts/Canaro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Canaro-Light.woff2') format('woff2'),
+        url('../fonts/Canaro-Light.woff') format('woff'),
+        url('../fonts/Canaro-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }

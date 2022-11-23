@@ -49,28 +49,28 @@ btnEnviar.onclick = function (){
     // PROCESOS
     let nombreValidado = validarCampo( vnombre );
     if(!nombreValidado) {
-      callError(errorNombre, 'esta mal nombre')
+      callError(errorNombre, 'Escribe tu nombre')
       return
     } else {
       errorNombre.innerText = ''
     }
     let emailValidado = validarCampo(vemail, 'email')    
     if(!emailValidado) {
-      callError(errorEmail, 'esta mal email')
+      callError(errorEmail, 'Email no valido')
       return
     } else {
       errorEmail.innerText = ''
     }
     let asuntoValidado = validarCampo( vasunto );
     if(!asuntoValidado) {
-      callError(errorAsunto, 'esta mal asunto')
+      callError(errorAsunto, 'Añade un asunto')
       return
     } else {
       errorAsunto.innerText = ''
     }
     let mensajeValidado = validarCampo( vmensaje);
     if(!mensajeValidado) {
-      callError(errorMsj, 'esta mal mensaje')
+      callError(errorMsj, 'Escribe el mensaje')
       return
     } else {
       errorMsj.innerText = ''
